@@ -1,8 +1,10 @@
-<div class="education">
+<div class="education-item">
 	<div class="timeline">
-		1990
+		1995
+		<div class="line"></div>
 	</div>
 	<div class="description">
-		Middelbare school
+		<h3>MAVO</h3>
+		<p>Nieuwer Amstel en Amstelhoven</p>
 	</div>
 </div>

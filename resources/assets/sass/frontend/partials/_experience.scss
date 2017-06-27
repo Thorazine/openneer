@@ -1,4 +1,33 @@
 .experience {
-	
+
+	.experience-item {
+		clear:both;
+		position: relative;
+		margin-bottom: 20px;
+	}
+
+	.company {
+		position: absolute;
+		top: 0px;
+		bottom: 0px;
+		left: 0px;
+		width: 33%;
+		height: 100%;
+
+		span {
+			display: block;
+			font-size: 15px;
+			font-weight: 700;
+			margin-bottom: 5px;
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+	}
+
+	.description {
+		padding-left: 33%;
+		font-size: 12px;
+	}
 	
 }

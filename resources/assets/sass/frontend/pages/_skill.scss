@@ -1,6 +1,6 @@
 #content.skill {
 	background-color: $background-color;
-	padding-top: 100px;
+	padding-top: 90px;
 
 	#wrapper-content {
 		margin: 0 auto;
@@ -22,6 +22,7 @@
 		img {
 			width: 100%;
 			height: 100%;
+			border: none;
 		}
 	}
 
@@ -34,6 +35,7 @@
 		text-transform: uppercase;
 		color: $font-color;
 		line-height: 35px;
+		margin-bottom: 12px;
 
 		.fat {
 			font-size: 35px;
@@ -69,6 +71,14 @@
 			position: absolute;
 			left: 0px;
 		}
+	}
+
+	.divider {
+		width: 100%;
+		height: 3px;
+		border-top: 1px solid $education-color;
+		border-bottom: 1px solid $education-color	;
+
 	}
 
 }

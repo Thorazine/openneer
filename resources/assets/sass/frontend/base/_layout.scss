@@ -3,17 +3,26 @@
 	min-height: 100vh;
 	position: relative;
 	font-family: $font-family;
-	font-size: 10px;
+	font-size: 13px;
+	line-height: 17px;
+	padding-bottom: 20px;
 }
 
 #wrapper-content {
 	width: 100%;
 	max-width: 1170px;
+	padding-bottom: 30px;
 	background-color: $container-color;
 }
 
 .container {
 	width: 100%;
 	min-height: 10px;
-	padding: 0px 30px;
+	padding: 0px 15px;
+}
+
+h3 {
+	font-size: 16px;
+	font-weight: 700;
+	margin-bottom: 5px;
 }
