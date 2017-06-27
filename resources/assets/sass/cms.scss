@@ -1,0 +1,51 @@
+
+// basic stuff
+@import 'cms/variables';
+@import 'cms/base/font-includes';
+@import 'cms/base/helper'; 
+@import 'cms/base/font';
+@import 'cms/base/form';
+
+// mixins
+@import 'cms/mixins/height-ratio';
+
+// components
+
+// includes
+@import 'cms/includes/bootstrap-fixes';
+@import 'cms/includes/jquery-ui';
+@import '../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+@import '../../../node_modules/font-awesome/scss/font-awesome';
+@import '../../../node_modules/eonasdan-bootstrap-datetimepicker/src/sass/bootstrap-datetimepicker-build';
+@import '../../../node_modules/cropper/src/scss/cropper';
+
+// layout
+@import 'cms/layout/cms-loader';
+@import 'cms/layout/content';
+@import 'cms/layout/grid';
+@import 'cms/layout/header';
+@import 'cms/layout/menu';
+@import 'cms/layout/paginate';
+@import 'cms/layout/footer';
+@import 'cms/layout/sidebar';
+@import 'cms/layout/subheader';
+
+// model
+@import 'cms/model/alert';
+@import 'cms/model/builder';
+@import 'cms/model/modal';
+@import 'cms/model/model';
+@import 'cms/model/wysiwyg';
+
+// modules
+@import 'cms/modules/cropper';
+@import 'cms/modules/dropzone';
+@import 'cms/modules/gallery';
+@import 'cms/modules/image';
+@import 'cms/modules/nested';
+@import 'cms/modules/permissions';
+
+// pages
+@import 'cms/pages/auth';
+@import 'cms/pages/base';
+@import 'cms/pages/user';
