@@ -2,6 +2,7 @@
 @import 'frontend/variables';
 @import 'frontend/base/reset';
 @import 'frontend/base/font-includes';
+@import 'frontend/base/layout';
 
 // mixins
 @import 'frontend/mixins/aspect-ratio';
@@ -12,3 +13,5 @@
 @import 'frontend/components/wysiwyg';
 
 // pages
+@import 'frontend/pages/skill';
+@import 'frontend/pages/animation';

@@ -58,8 +58,16 @@
 		width: 66.666666%;
 	}
 
+	.grid-7 {
+		width: 58.333333%;
+	}
+
 	.grid-6 {
 		width: 50%;
+	}
+
+	.grid-5 {
+		width: 41.666666%;
 	}
 
 	.grid-4 {
@@ -128,7 +136,7 @@
 * A grid, bootstrap 12 block style
 *
 
-<div class="gridi">
+<div class="grid">
 	<div class="grid-6"></div>
 	<div class="grid-6"></div>
 </div>
