@@ -4,7 +4,7 @@
 
 	#wrapper-content {
 		margin: 0 auto;
-		padding-top: 100px;
+		padding-top: 90px;
 	}
 
 	.portrait {
@@ -22,6 +22,35 @@
 		img {
 			width: 100%;
 			height: 100%;
+		}
+	}
+
+	h1 {
+		display: block;
+		text-align: center;
+		font-size: 25px;
+		font-weight: 700;
+		letter-spacing: -1px;
+		text-transform: uppercase;
+		color: $font-color;
+		line-height: 35px;
+
+		.fat {
+			font-size: 35px;
+			font-weight: 800;
+		}
+
+		.name {
+			color: $font-name-color;
+		}
+
+		.alt {
+			top: -5px;
+			opacity: 0.5;
+			font-size: 75%;
+		    line-height: 0;
+		    position: relative;
+		    vertical-align: baseline;
 		}
 	}
 
