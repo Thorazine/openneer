@@ -21,7 +21,7 @@
 				<div class="divider"></div>
 			</div>
 
-			<div class="grid">
+			<div class="grid break-md">
 				<div class="grid-7">
 					<div class="container">
 						<h2 class="slashed">{{ __('matthijs.about_me') }}</h2>

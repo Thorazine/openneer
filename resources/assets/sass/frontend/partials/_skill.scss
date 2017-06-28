@@ -62,6 +62,11 @@
 				width: 100px;
 				margin-left: -50px;
 				text-align: center;
+
+				@include breakpoint('mobile-portrait') {
+					margin-left: 0px;
+					text-align: left;
+				}
 			}
 
 			&.expert {
@@ -69,6 +74,11 @@
 				width: 100px;
 				margin-right: -50px;
 				text-align: center;
+
+				@include breakpoint('mobile-portrait') {
+					margin-right: 0px;
+					text-align: right;
+				}
 			}
 
 			&.master {

@@ -108,27 +108,27 @@
 
 	
 
-	// @include respond-to('tablet-portrait') {
-	// 	&.break-lg {
-	// 		div[class^="grid-"] {
-	// 			width: 100%;
-	// 		}
-	// 	}
-	// }
+	@include breakpoint('tablet-portrait') {
+		&.break-lg {
+			div[class^="grid-"] {
+				width: 100%;
+			}
+		}
+	}
 
-	// @include respond-to('mobile-landscape') {
-	// 	&.break-md {
-	// 		div[class^="grid-"] {
-	// 			width: 100%;
-	// 		}
-	// 	}
-	// }
+	@include breakpoint('mobile-landscape') {
+		&.break-md {
+			div[class^="grid-"] {
+				width: 100%;
+			}
+		}
+	}
 
-	// @include respond-to('mobile-portrait') {
-	// 	div[class^="grid-"] {
-	// 		width: 100%;
-	// 	}
-	// }
+	@include breakpoint('mobile-portrait') {
+		div[class^="grid-"] {
+			width: 100%;
+		}
+	}
 
 }
 
