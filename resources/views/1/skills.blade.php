@@ -31,6 +31,11 @@
 					</div>
 					<div class="container education">
 						<h2 class="slashed">{{ __('matthijs.education') }}</h2>
+<<<<<<< HEAD
+=======
+
+						<div class="startline"></div>
+>>>>>>> f52a012c579fbe7c28aa17f92045921a5870f450
 
 						<div class="startline"></div>
 
@@ -41,23 +46,33 @@
 					</div>
 					<div class="container experience">
 						<h2 class="slashed">{{ __('matthijs.experiences') }}</h2>
+<<<<<<< HEAD
 
 						@foreach($page->experiences as $experience)
 							@include('1.partials.experience')
 						@endforeach
+=======
+>>>>>>> f52a012c579fbe7c28aa17f92045921a5870f450
 
 					</div>
 				</div>
 				<div class="grid-5">
 					<div class="container contact">
 						<h2 class="slashed">{{ __('matthijs.contact') }}</h2>
+<<<<<<< HEAD
 
 						@foreach($page->contacts as $contact)
 							@include('1.partials.contact')
 						@endforeach
+=======
+>>>>>>> f52a012c579fbe7c28aa17f92045921a5870f450
 
 					</div>
+<<<<<<< HEAD
 					<div class="container skills">
+=======
+					<div class="container skill">
+>>>>>>> f52a012c579fbe7c28aa17f92045921a5870f450
 						<h2 class="slashed">{{ __('matthijs.skills') }}</h2>
 
 						@foreach($page->skills as $skill)
@@ -77,18 +92,24 @@
 					</div>
 					<div class="container language">
 						<h2 class="slashed">{{ __('matthijs.languages') }}</h2>
+<<<<<<< HEAD
 
 						@foreach($page->languages as $language)
 							@include('1.partials.language')
 						@endforeach
+=======
+>>>>>>> f52a012c579fbe7c28aa17f92045921a5870f450
 
 					</div>
 					<div class="container hobby">
 						<h2 class="slashed">{{ __('matthijs.hobbys') }}</h2>
+<<<<<<< HEAD
 
 						@foreach($page->hobbies as $hobby)
 							@include('1.partials.hobby')
 						@endforeach
+=======
+>>>>>>> f52a012c579fbe7c28aa17f92045921a5870f450
 
 					</div>
 				</div>

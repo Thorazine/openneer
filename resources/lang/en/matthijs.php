@@ -12,6 +12,7 @@ return [
 	'skills' => 'Skills',
 	'languages' => 'Languages',
 	'hobbys' => 'Hobbys',
+<<<<<<< HEAD
 
 	'level' => [
 		'beginner' => 'Beginner',
@@ -25,5 +26,7 @@ return [
 		'dutch' => 'Dutch',
 		'german' => 'German',
 	],
+=======
+>>>>>>> f52a012c579fbe7c28aa17f92045921a5870f450
 
 ];
