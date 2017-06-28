@@ -27,7 +27,7 @@
     <meta name="mobile-web-app-capable" content="yes" />
 
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/frontend/css/frontend.css') }}?version={{ (App::environment() === 'develop') ? rand(1,1000) : '' }}">
-
+    <script src="https://use.fontawesome.com/5daec6a801.js"></script>
 </head>
 <body>
 

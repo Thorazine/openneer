@@ -1,8 +1,10 @@
-<div class="education">
+<div class="education-item">
 	<div class="timeline">
-		1990
+		{{ $education->year }}
+		<div class="line"></div>
 	</div>
 	<div class="description">
-		Middelbare school
+		<h3>{{ $education->place }}</h3>
+		{!! $education->description !!}
 	</div>
 </div>

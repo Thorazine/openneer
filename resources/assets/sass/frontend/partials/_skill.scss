@@ -1,3 +1,79 @@
-.skill {
-	
+.skills {
+	margin-bottom: 60px;
+
+	.skill-item {
+		background-color: $skill-color;
+		padding: 7px;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		transition: width 2s ease;
+		margin-bottom: 5px;
+		font-weight: 700;
+		color: $container-color;
+		width: 0%;
+	}
+
+	.legend {
+		background-color: $skill-experience-color;
+		height: 3px;
+		width: 100%;
+		position: relative;
+		overflow: visible;
+		margin-top: 20px;
+
+		.indicator {
+			background-color: $skill-experience-color;
+			width: 3px;
+			height: 10px;
+			position: absolute;
+			top: 0px;
+			z-index: 2;
+
+			&.beginner {
+				left: 0px;
+			}
+
+			&.proficient {
+				left: 25%;
+			}
+
+			&.expert {
+				right: 25%;
+			}
+
+			&.master {
+				right: 0px;
+			}
+		}
+
+		.label {
+			color: $skill-experience-color;
+			position: absolute;
+			top: 20px;
+			font-size: 12px;
+
+			&.beginner {
+				left: 0px;
+			}
+
+			&.proficient {
+				left: 25%;
+				width: 100px;
+				margin-left: -50px;
+				text-align: center;
+			}
+
+			&.expert {
+				right: 25%;
+				width: 100px;
+				margin-right: -50px;
+				text-align: center;
+			}
+
+			&.master {
+				right: 0px;
+			}
+		}
+	}
 }

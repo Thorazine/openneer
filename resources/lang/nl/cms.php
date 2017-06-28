@@ -62,6 +62,12 @@ return [
 		'gallery' => 'Gallerij',
 		'information' => 'Informatie',
 		'db_logs' => 'Logs',
+		'contacts' => 'Contacten',
+		'education' => 'Opleidingen',
+		'experiences' => 'Ervaringen',
+		'hobbies' => 'Hobbies',
+		'languages' => 'Talen',
+		'skills' => 'Skills',
 
 		// builders
 		'text' => 'Text',

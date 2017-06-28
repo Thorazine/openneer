@@ -63,6 +63,12 @@ return [
 		'gallery' => 'Gallery',
 		'information' => 'Information',
 		'db_logs' => 'Logs',
+		'contacts' => 'Contacts',
+		'education' => 'Education',
+		'experiences' => 'Experiences',
+		'hobbies' => 'Hobbies',
+		'languages' => 'Languages',
+		'skills' => 'Skills',
 
 		// builders
 		'text' => 'Text',

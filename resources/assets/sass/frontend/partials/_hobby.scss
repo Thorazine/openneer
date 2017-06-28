@@ -1,3 +1,11 @@
 .hobby {
 	
+	.hobby-item {
+		display: inline-block;
+		padding: 5px;
+		background-color: $hobby-color;
+		color: $container-color;
+		margin-right: 5px;
+		margin-bottom: 7px;
+	}
 }

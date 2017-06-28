@@ -33,6 +33,30 @@ return [
 				],
 			],
 			[
+				'route' => 'cms.contacts.index',
+				'label' => 'cms.module.contacts',
+			],
+			[
+				'route' => 'cms.education.index',
+				'label' => 'cms.module.education',
+			],
+			[
+				'route' => 'cms.experiences.index',
+				'label' => 'cms.module.experiences',
+			],
+			[
+				'route' => 'cms.hobbies.index',
+				'label' => 'cms.module.hobbies',
+			],
+			[
+				'route' => 'cms.languages.index',
+				'label' => 'cms.module.languages',
+			],
+			[
+				'route' => 'cms.skills.index',
+				'label' => 'cms.module.skills',
+			],
+			[
 				'route' => 'cms.menus.index',
 				'label' => 'cms.module.menus',
 				'route-matches' => [

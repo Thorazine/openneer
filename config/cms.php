@@ -51,6 +51,36 @@ return [
 		 	'label' => 'Form',
 		 	'builder' => 'Thorazine\Hack\Classes\Builders\Form',
 	 	],
+	 	'contact' => [
+	 		'namespace' => 'App\Models\Cms\Builders\Contact',
+	 		'label' => 'Contact',
+	 		'grouped' => true,
+	 	],
+	 	'education' => [
+	 		'namespace' => 'App\Models\Cms\Builders\Education',
+	 		'label' => 'Education',
+	 		'grouped' => true,
+	 	],
+	 	'experience' => [
+	 		'namespace' => 'App\Models\Cms\Builders\Experience',
+	 		'label' => 'Experience',
+	 		'grouped' => true,
+	 	],
+	 	'hobby' => [
+	 		'namespace' => 'App\Models\Cms\Builders\Hobby',
+	 		'label' => 'Hobby',
+	 		'grouped' => true,
+	 	],
+	 	'language' => [
+	 		'namespace' => 'App\Models\Cms\Builders\Language',
+	 		'label' => 'Language',
+	 		'grouped' => true,
+	 	],
+	 	'skill' => [
+	 		'namespace' => 'App\Models\Cms\Builders\Skill',
+	 		'label' => 'Skill',
+	 		'grouped' => true,
+	 	],
 	],
 	
 

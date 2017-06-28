@@ -3,17 +3,43 @@
 	min-height: 100vh;
 	position: relative;
 	font-family: $font-family;
-	font-size: 10px;
+	font-size: 13px;
+	line-height: 17px;
+	padding-bottom: 20px;
 }
 
 #wrapper-content {
 	width: 100%;
 	max-width: 1170px;
+	padding-bottom: 30px;
 	background-color: $container-color;
 }
 
 .container {
 	width: 100%;
 	min-height: 10px;
-	padding: 0px 30px;
+	padding: 0px 15px;
+}
+
+h2.slashed {
+	display: block;
+	padding-left: 20px;
+	position: relative;
+	font-size: 19px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $font-header-color;
+    margin: 20px 0 10px;
+
+	&:before {
+		content: '//';
+		position: absolute;
+		left: 0px;
+	}
+}
+
+h3 {
+	font-size: 16px;
+	font-weight: 700;
+	margin-bottom: 5px;
 }
