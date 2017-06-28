@@ -553,16 +553,16 @@
         },
         {
             "name": "jaybizzle/crawler-detect",
-            "version": "v1.2.47",
+            "version": "v1.2.48",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JayBizzle/Crawler-Detect.git",
-                "reference": "f92d6a8a4426a0cba6c2a855dc27affcfdb33dbb"
+                "reference": "01c9f4e4bcd6bc5621418f804aed6d7b630bdf07"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JayBizzle/Crawler-Detect/zipball/f92d6a8a4426a0cba6c2a855dc27affcfdb33dbb",
-                "reference": "f92d6a8a4426a0cba6c2a855dc27affcfdb33dbb",
+                "url": "https://api.github.com/repos/JayBizzle/Crawler-Detect/zipball/01c9f4e4bcd6bc5621418f804aed6d7b630bdf07",
+                "reference": "01c9f4e4bcd6bc5621418f804aed6d7b630bdf07",
                 "shasum": ""
             },
             "require": {
@@ -597,7 +597,7 @@
                 "crawlerdetect",
                 "php crawler detect"
             ],
-            "time": "2017-06-26T12:33:21+00:00"
+            "time": "2017-06-28T12:16:28+00:00"
         },
         {
             "name": "jenssegers/agent",
@@ -2814,16 +2814,16 @@
         },
         {
             "name": "thorazine/hack",
-            "version": "1.0.20",
+            "version": "1.0.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Thorazine/hack.git",
-                "reference": "d9cbd719c857d8b582039071956cba9d1b031a2b"
+                "reference": "9fe719c1b5315d5168e03fc93328dca2bc0a8fa4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Thorazine/hack/zipball/d9cbd719c857d8b582039071956cba9d1b031a2b",
-                "reference": "d9cbd719c857d8b582039071956cba9d1b031a2b",
+                "url": "https://api.github.com/repos/Thorazine/hack/zipball/9fe719c1b5315d5168e03fc93328dca2bc0a8fa4",
+                "reference": "9fe719c1b5315d5168e03fc93328dca2bc0a8fa4",
                 "shasum": ""
             },
             "require": {
@@ -2852,7 +2852,7 @@
                 "hack",
                 "laravel"
             ],
-            "time": "2017-06-27T15:35:33+00:00"
+            "time": "2017-06-28T11:55:20+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",

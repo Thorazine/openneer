@@ -1,7 +1,7 @@
 <div class="language-item">
 	{{ __('matthijs.language.'.$language->language) }}
 	<div class="stars">
-		@for($i = 1; $i < 6; $i++)
+		@for($i = 0; $i < 5; $i++)
 			@if($language->proficiency > $i)
 				<i class="fa fa-star active"></i>
 			@else
