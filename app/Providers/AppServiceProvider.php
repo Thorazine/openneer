@@ -13,7 +13,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        if(env('DB_OLD')) {
+            Schema::defaultStringLength(191);
+        }
     }
 
     /**
