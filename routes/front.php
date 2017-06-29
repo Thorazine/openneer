@@ -20,10 +20,11 @@ Route::group(['namespace' => 'Thorazine\Hack\Http\Controllers\Front'], function(
 	Route::get('polling/database', function() {
 		try {
 		    DB::connection()->getPdo();
+		    return response("Could not connect to the database. Please check your configuration.", 500);
 		    return 'true';
 
 		} catch (\Exception $e) {
-		    die("Could not connect to the database. Please check your configuration.");
+			return response("Could not connect to the database. Please check your configuration.", 500);
 		}
 	});
 
