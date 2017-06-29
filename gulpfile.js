@@ -30,9 +30,7 @@ elixir(mix => {
     // wysiwyg
     .sass([
         'wysiwyg.scss'
-    ], 'public/assets/cms/css/wysiwyg.css');
-
-    // .livereload();
+    ], 'public/assets/cms/css/wysiwyg.css').livereload();
 
 
 
@@ -64,10 +62,10 @@ elixir(mix => {
         '../../../node_modules/jquery/dist/jquery.min.js',
         '../../../node_modules/bootstrap-sass/assets/javascripts/bootstrap.min.js',
         'auth.js',
-    ], 'public/assets/cms/js/auth.js');
+    ], 'public/assets/cms/js/auth.js')
 
 
-    // .livereload();
+    .livereload();
     // mix.browserSync({
     //     proxy: 'localhost/hack/public/'
     // });
