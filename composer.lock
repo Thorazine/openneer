@@ -1529,16 +1529,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v3.0.5",
+            "version": "v3.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "2b9e2f71b722f7c53918ab0c25f7646c2013f17d"
+                "reference": "0808939f81c1347a3c8a82a5925385a08074b0f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/2b9e2f71b722f7c53918ab0c25f7646c2013f17d",
-                "reference": "2b9e2f71b722f7c53918ab0c25f7646c2013f17d",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/0808939f81c1347a3c8a82a5925385a08074b0f1",
+                "reference": "0808939f81c1347a3c8a82a5925385a08074b0f1",
                 "shasum": ""
             },
             "require": {
@@ -1576,7 +1576,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2017-03-05T18:23:57+00:00"
+            "time": "2017-06-28T20:53:48+00:00"
         },
         {
             "name": "noprotocol/laravel-location",
@@ -2930,16 +2930,16 @@
         },
         {
             "name": "thorazine/hack",
-            "version": "1.0.21",
+            "version": "1.0.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Thorazine/hack.git",
-                "reference": "9fe719c1b5315d5168e03fc93328dca2bc0a8fa4"
+                "reference": "70cdcf4c794c0967463bdbaab70fe41990540448"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Thorazine/hack/zipball/9fe719c1b5315d5168e03fc93328dca2bc0a8fa4",
-                "reference": "9fe719c1b5315d5168e03fc93328dca2bc0a8fa4",
+                "url": "https://api.github.com/repos/Thorazine/hack/zipball/70cdcf4c794c0967463bdbaab70fe41990540448",
+                "reference": "70cdcf4c794c0967463bdbaab70fe41990540448",
                 "shasum": ""
             },
             "require": {
@@ -2968,7 +2968,7 @@
                 "hack",
                 "laravel"
             ],
-            "time": "2017-06-28T11:55:20+00:00"
+            "time": "2017-06-28T20:46:58+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
