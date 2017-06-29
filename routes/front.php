@@ -16,6 +16,17 @@ Route::group(['namespace' => 'Thorazine\Hack\Http\Controllers\Front'], function(
 			->header('Content-Type', 'text/xml');
 	});
 
+	// Test database connection (pingdom like service)
+	Route::get('polling/database', function() {
+		try {
+		    DB::connection()->getPdo();
+		    return 'true';
+
+		} catch (\Exception $e) {
+		    die("Could not connect to the database. Please check your configuration.");
+		}
+	});
+
 	// A post route for the form builder
 	Route::post('/form-builder/store', ['as' => 'form-builder.store', 'uses' => 'FormBuilderController@store']);
 
