@@ -11,6 +11,7 @@
 */
 Route::group(['namespace' => 'Thorazine\Hack\Http\Controllers\Front'], function() {
 
+	// Return the sitemap
 	Route::get('sitemap.xml', function() {
 		return response(Storage::disk(config('filesystems.default'))->get('sitemaps/'.Cms::siteId().'/sitemap.xml'), 200)
 			->header('Content-Type', 'text/xml');
@@ -20,9 +21,6 @@ Route::group(['namespace' => 'Thorazine\Hack\Http\Controllers\Front'], function(
 	Route::get('polling/database', function() {
 		try {
 		    DB::connection()->getPdo();
-		    return response("Could not connect to the database. Please check your configuration.", 500);
-		    return 'true';
-
 		} catch (\Exception $e) {
 			return response("Could not connect to the database. Please check your configuration.", 500);
 		}
