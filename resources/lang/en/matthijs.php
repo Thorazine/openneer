@@ -3,7 +3,7 @@
 return [
 	'intro' => '<span class="fat">Hello,</span><br>
 				My name is <span class="name">Matthijs</span>
-				<span class="alt">'.date_diff(date_create("16-07-1981"), date_create("now"))->y.'yo</span>
+				<span class="alt">programmer</span>
 				and this is my resume',
 	'about_me' => 'About me',
 	'education' => 'Education',
@@ -12,7 +12,6 @@ return [
 	'skills' => 'Skills',
 	'languages' => 'Languages',
 	'hobbys' => 'Hobbys',
-<<<<<<< HEAD
 
 	'level' => [
 		'beginner' => 'Beginner',
@@ -26,7 +25,5 @@ return [
 		'dutch' => 'Dutch',
 		'german' => 'German',
 	],
-=======
->>>>>>> f52a012c579fbe7c28aa17f92045921a5870f450
 
 ];
