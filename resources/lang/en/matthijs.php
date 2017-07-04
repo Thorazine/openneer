@@ -3,7 +3,7 @@
 return [
 	'intro' => '<span class="fat">Hello,</span><br>
 				My name is <span class="name">Matthijs</span>
-				<span class="alt">programmer</span>
+				<span class="alt">developer</span>
 				and this is my resume',
 	'about_me' => 'About me',
 	'education' => 'Education',
