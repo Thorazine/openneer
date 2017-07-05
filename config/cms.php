@@ -167,7 +167,7 @@ return [
 		 * to run the indexer in the background by running the hack:search
 		 * artisan command on a crontab every few minutes.
 		 */
-		'index_on_update' => false,
+		'index_on_update' => true,
 
 		/**
 		 * Run the search engine on these views 
