@@ -8,12 +8,15 @@
 		<div id="wrapper-content">
 			<div class="grid">
 				<div class="grid-6">
-					<img src="{{ asset('flags/en.png') }}">
-					<a href="{{ route('page', ['slug' => 'en']) }}">English</a>
+					<a href="{{ route('page', ['slug' => 'en']) }}">
+						<img src="{{ asset('images/flags/en.png') }}">
+					</a>
 				</div>
 				<div class="grid-6">
-					<img src="{{ asset('flags/nl.png') }}">
-					<a href="{{ route('page', ['slug' => 'nl']) }}">Nederlands</a>
+					
+					<a href="{{ route('page', ['slug' => 'nl']) }}">
+						<img src="{{ asset('images/flags/nl.png') }}">
+					</a>
 				</div>
 			</div>
 		</div>
