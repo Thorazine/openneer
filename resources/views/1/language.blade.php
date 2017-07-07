@@ -6,8 +6,6 @@
 	
 	<div id="content" class="skill">
 		<div id="wrapper-content">
-			<h1>Pick a language</h1>
-
 			<div class="grid">
 				<div class="grid-6">
 					<img src="{{ asset('flags/en.png') }}">
