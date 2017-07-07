@@ -36,8 +36,7 @@ class Skill extends BaseBuilder
      */
     public function replaceFrontendValue($original, $builder)
     {
-        return SkillModel::where('language', App::getLocale())
-            ->orderBy('drag_order', 'asc')
+        return SkillModel::orderBy('drag_order', 'asc')
             ->get();
     }
 }

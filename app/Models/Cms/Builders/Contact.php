@@ -36,8 +36,7 @@ class Contact extends BaseBuilder
      */
     public function replaceFrontendValue($original, $builder)
     {
-        return ContactModel::where('language', App::getLocale())
-            ->orderBy('drag_order', 'asc')
+        return ContactModel::orderBy('drag_order', 'asc')
             ->get();
     }
 }

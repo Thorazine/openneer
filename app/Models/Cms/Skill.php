@@ -56,12 +56,6 @@ class Skill extends CmsModel
                 'create' => false,
                 'edit' => false,
             ],
-            'language' => [
-                'type' => 'select',
-                'label' => trans('modules.pages.language'),
-                'regex' => 'required',
-                'values' => config('cms.languages'),
-            ],
             'skill' => [
                 'type' => 'text',
                 'label' => trans('modules.skill.skill'),
