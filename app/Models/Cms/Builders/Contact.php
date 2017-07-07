@@ -5,6 +5,7 @@ namespace App\Models\Cms\Builders;
 use Illuminate\Database\Eloquent\Model;
 use App\Models\Cms\Contact as ContactModel;
 use Thorazine\Hack\Models\Builders\BaseBuilder;
+use App;
 
 class Contact extends BaseBuilder
 {
@@ -35,6 +36,8 @@ class Contact extends BaseBuilder
      */
     public function replaceFrontendValue($original, $builder)
     {
-        return ContactModel::orderBy('drag_order', 'asc')->get();
+        return ContactModel::where('language', App::getLocale())
+            ->orderBy('drag_order', 'asc')
+            ->get();
     }
 }

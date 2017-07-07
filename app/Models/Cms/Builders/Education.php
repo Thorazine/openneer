@@ -5,6 +5,7 @@ namespace App\Models\Cms\Builders;
 use Illuminate\Database\Eloquent\Model;
 use App\Models\Cms\Education as EducationModel;
 use Thorazine\Hack\Models\Builders\BaseBuilder;
+use App;
 
 class Education extends BaseBuilder
 {
@@ -35,6 +36,8 @@ class Education extends BaseBuilder
      */
     public function replaceFrontendValue($original, $builder)
     {
-        return EducationModel::orderBy('drag_order', 'asc')->get();
+        return EducationModel::where('language', App::getLocale())
+            ->orderBy('drag_order', 'asc')
+            ->get();
     }
 }

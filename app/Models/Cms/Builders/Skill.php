@@ -5,6 +5,7 @@ namespace App\Models\Cms\Builders;
 use Illuminate\Database\Eloquent\Model;
 use App\Models\Cms\Skill as SkillModel;
 use Thorazine\Hack\Models\Builders\BaseBuilder;
+use App;
 
 class Skill extends BaseBuilder
 {
@@ -35,6 +36,8 @@ class Skill extends BaseBuilder
      */
     public function replaceFrontendValue($original, $builder)
     {
-        return SkillModel::orderBy('drag_order', 'asc')->get();
+        return SkillModel::where('language', App::getLocale())
+            ->orderBy('drag_order', 'asc')
+            ->get();
     }
 }

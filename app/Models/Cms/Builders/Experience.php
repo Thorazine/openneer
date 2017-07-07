@@ -5,6 +5,7 @@ namespace App\Models\Cms\Builders;
 use Illuminate\Database\Eloquent\Model;
 use App\Models\Cms\Experience as ExperienceModel;
 use Thorazine\Hack\Models\Builders\BaseBuilder;
+use App;
 
 class Experience extends BaseBuilder
 {
@@ -35,6 +36,8 @@ class Experience extends BaseBuilder
      */
     public function replaceFrontendValue($original, $builder)
     {
-        return ExperienceModel::orderBy('drag_order', 'asc')->get();
+        return ExperienceModel::where('language', App::getLocale())
+            ->orderBy('drag_order', 'asc')
+            ->get();
     }
 }

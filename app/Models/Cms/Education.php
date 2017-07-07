@@ -56,6 +56,12 @@ class Education extends CmsModel
                 'create' => false,
                 'edit' => false,
             ],
+            'language' => [
+                'type' => 'select',
+                'label' => trans('modules.pages.language'),
+                'regex' => 'required',
+                'values' => config('cms.languages'),
+            ],
             'year' => [
                 'type' => 'text',
                 'label' => trans('modules.education.year'),

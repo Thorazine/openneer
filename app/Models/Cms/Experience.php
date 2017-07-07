@@ -56,6 +56,12 @@ class Experience extends CmsModel
                 'create' => false,
                 'edit' => false,
             ],
+            'language' => [
+                'type' => 'select',
+                'label' => trans('modules.pages.language'),
+                'regex' => 'required',
+                'values' => config('cms.languages'),
+            ],
             'company' => [
                 'type' => 'text',
                 'label' => trans('modules.experience.company'),

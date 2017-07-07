@@ -5,6 +5,7 @@ namespace App\Models\Cms\Builders;
 use Illuminate\Database\Eloquent\Model;
 use App\Models\Cms\Hobby as HobbyModel;
 use Thorazine\Hack\Models\Builders\BaseBuilder;
+use App;
 
 class Hobby extends BaseBuilder
 {
@@ -35,6 +36,8 @@ class Hobby extends BaseBuilder
      */
     public function replaceFrontendValue($original, $builder)
     {
-        return HobbyModel::orderBy('drag_order', 'asc')->get();
+        return HobbyModel::where('language', App::getLocale())
+            ->orderBy('drag_order', 'asc')
+            ->get();
     }
 }

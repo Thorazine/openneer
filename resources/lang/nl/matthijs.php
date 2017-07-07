@@ -24,6 +24,10 @@ return [
 		'english' => 'Engels',
 		'dutch' => 'Nederlands',
 		'german' => 'Duits',
+		'french' => 'Frans',
+		'spanish' => 'Spaans',
+		'italian' => 'Italiaans',
+		'portugese' => 'Portugees',
 	],
 
 ];
