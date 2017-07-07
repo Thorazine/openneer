@@ -14,12 +14,14 @@
 	<meta property="og:url" content="{{ Request::url() }}"/>
 	
 	@if($page->og_image->has())
-	<meta property="og:image" content="{{ $page->og_image }}"/>
+
+	<meta property="og:image" content="{{ $page->og_image->url }}"/>
 	<meta property="og:image:type" content="image/{{ $page->og_image->extension }}">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
 	@endif
 	@if($page->favicon->has())
+	
 	<link rel="shortcut icon" href="{{ $page->favicon }}" type="image/x-icon" />
 	@endif
 	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1 minimal-ui">
