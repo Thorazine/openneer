@@ -4,17 +4,16 @@
 
 @section('content')
 	
-	<div id="content" class="skill">
+	<div id="content" class="language">
 		<div id="wrapper-content">
-			<div class="grid">
+			<div class="grid space-20">
 				<div class="grid-6">
-					<a href="{{ route('page', ['slug' => 'en']) }}">
+					<a class="flag" href="{{ route('page', ['slug' => 'en']) }}">
 						<img src="{{ asset('images/flags/en.png') }}">
 					</a>
 				</div>
 				<div class="grid-6">
-					
-					<a href="{{ route('page', ['slug' => 'nl']) }}">
+					<a class="flag" href="{{ route('page', ['slug' => 'nl']) }}">
 						<img src="{{ asset('images/flags/nl.png') }}">
 					</a>
 				</div>

@@ -43,3 +43,20 @@ h3 {
 	font-weight: 700;
 	margin-bottom: 5px;
 }
+
+.flags {
+	height: 0px;
+	max-width: 1170px;
+	margin: auto;
+	top: 0px;
+	right: 0px;
+	z-index: 5;
+
+	.flag {
+		float: right;
+		margin-left: 5px;
+		img {
+			width: 30px;
+		}
+	}
+}

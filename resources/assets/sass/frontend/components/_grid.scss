@@ -125,8 +125,10 @@
 	}
 
 	@include breakpoint('mobile-portrait') {
-		div[class^="grid-"] {
-			width: 100%;
+		&.break-sm {
+			div[class^="grid-"] {
+				width: 100%;
+			}
 		}
 	}
 
