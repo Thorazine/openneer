@@ -25,7 +25,7 @@
 
 			<div class="intro">
 				<h1>
-					{!! __('matthijs.intro') !!}
+					{!! __('matthijs.intro.matthijs') !!}
 				</h1>
 			</div>
 
