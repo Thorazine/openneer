@@ -1,10 +1,22 @@
-@extends('1.layouts.default')
+@extends('4.layouts.default')
 
 
 
 @section('content')
-	
+	<div class="flags">
+		@if($page['language'] != 'en')
+			<a class="flag" href="{{ route('page', ['slug' => 'en']) }}">
+				<img src="{{ asset('images/flags/en.png') }}">
+			</a>
+		@elseif($page['language'] != 'nl')
+			<a class="flag" href="{{ route('page', ['slug' => 'nl']) }}">
+				<img src="{{ asset('images/flags/nl.png') }}">
+			</a>
+		@endif
+	</div>
+
 	<div id="content" class="skill">
+
 		<div id="wrapper-content">
 
 			<div class="portrait">
@@ -13,7 +25,7 @@
 
 			<div class="intro">
 				<h1>
-					{!! __('matthijs.intro') !!}
+					{!! __('matthijs.intro.cynthia') !!}
 				</h1>
 			</div>
 
