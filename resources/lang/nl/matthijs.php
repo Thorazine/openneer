@@ -3,13 +3,13 @@
 return [
 	'intro' => [
 		'matthijs' => '<span class="fat">Hallo,</span><br>
-				Mijn naam is <span class="name">Matthijs</span>
-				<span class="alt">developer</span>
-				en dit is mijn resumé',
+			Mijn naam is <span class="name">Matthijs</span>
+			<span class="alt">developer</span>
+			en dit is mijn resumé',
 		'cynthia' => '<span class="fat">Hallo,</span><br>
-				Mijn naam is <span class="name">Cynthia</span>
-				<span class="alt">planner</span>
-				en dit is mijn resumé',
+			Mijn naam is <span class="name">Cynthia</span>
+			<span class="alt">planner</span>
+			en dit is mijn resumé',
 		],
 	'about_me' => 'Over mij',
 	'education' => 'Opleiding',
