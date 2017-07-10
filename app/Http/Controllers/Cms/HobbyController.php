@@ -17,6 +17,7 @@ class HobbyController extends CmsController
         $this->model = $model;
         $this->slug = 'hobbies';
         $this->hasOrder = true;
+        $this->paginateAmount = 100;
 
         parent::__construct($this);
     }

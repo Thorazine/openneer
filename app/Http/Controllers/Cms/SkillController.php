@@ -17,6 +17,7 @@ class SkillController extends CmsController
         $this->model = $model;
         $this->slug = 'skills';
         $this->hasOrder = true;
+        $this->paginateAmount = 100;
 
         parent::__construct($this);
     }

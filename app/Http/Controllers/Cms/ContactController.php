@@ -17,6 +17,7 @@ class ContactController extends CmsController
         $this->model = $model;
         $this->slug = 'contacts';
         $this->hasOrder = true;
+        $this->paginateAmount = 100;
 
         parent::__construct($this);
     }

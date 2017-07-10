@@ -17,6 +17,7 @@ class LanguageController extends CmsController
         $this->model = $model;
         $this->slug = 'languages';
         $this->hasOrder = true;
+        $this->paginateAmount = 100;
 
         parent::__construct($this);
     }

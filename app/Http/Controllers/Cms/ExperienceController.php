@@ -17,6 +17,7 @@ class ExperienceController extends CmsController
         $this->model = $model;
         $this->slug = 'experiences';
         $this->hasOrder = true;
+        $this->paginateAmount = 100;
 
         parent::__construct($this);
     }

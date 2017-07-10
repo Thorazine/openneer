@@ -17,6 +17,7 @@ class EducationController extends CmsController
         $this->model = $model;
         $this->slug = 'education';
         $this->hasOrder = true;
+        $this->paginateAmount = 100;
 
         parent::__construct($this);
     }
