@@ -12,8 +12,8 @@ let mix = require('laravel-mix');
  */
 
 mix
-	// cms
-	.sass('resources/assets/sass/cms.scss', 'public/assets/cms/css/cms.css')
+    // cms
+    .sass('resources/assets/sass/cms.scss', 'public/assets/cms/css/cms.css')
 
     // frontend
     .sass('resources/assets/sass/frontend.scss', 'public/assets/frontend/css/frontend.css')
@@ -49,3 +49,13 @@ mix
         'node_modules/bootstrap-sass/assets/javascripts/bootstrap.min.js',
         'resources/assets/js/auth.js',
     ], 'public/assets/cms/js/auth.js');
+
+
+var LiveReloadPlugin = require('webpack-livereload-plugin');
+
+mix.webpackConfig({
+    plugins: [
+        new LiveReloadPlugin()
+    ],
+    
+});
