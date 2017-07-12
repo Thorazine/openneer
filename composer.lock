@@ -2939,16 +2939,16 @@
         },
         {
             "name": "thorazine/hack",
-            "version": "1.0.37",
+            "version": "1.0.38",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Thorazine/hack.git",
-                "reference": "f279c1ff3b9344adbc9749ba60d19f9c1dfe4fea"
+                "reference": "b1448d714b4032c744d5da77b09e72e40f4ea079"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Thorazine/hack/zipball/f279c1ff3b9344adbc9749ba60d19f9c1dfe4fea",
-                "reference": "f279c1ff3b9344adbc9749ba60d19f9c1dfe4fea",
+                "url": "https://api.github.com/repos/Thorazine/hack/zipball/b1448d714b4032c744d5da77b09e72e40f4ea079",
+                "reference": "b1448d714b4032c744d5da77b09e72e40f4ea079",
                 "shasum": ""
             },
             "require": {
@@ -2977,7 +2977,7 @@
                 "hack",
                 "laravel"
             ],
-            "time": "2017-07-12T13:51:54+00:00"
+            "time": "2017-07-12T15:42:26+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
