@@ -58,13 +58,13 @@ class Language extends CmsModel
             ],
             'language' => [
                 'type' => 'select',
-                'label' => trans('modules.language.language'),
+                'label' => trans('hack::modules.language.language'),
                 'regex' => 'required',
                 'values' => 'getLanguages',
             ],
             'proficiency' => [
                 'type' => 'select',
-                'label' => trans('modules.language.proficiency'),
+                'label' => trans('hack::modules.language.proficiency'),
                 'regex' => 'required',
                 'values' => [
                     1 => 1,

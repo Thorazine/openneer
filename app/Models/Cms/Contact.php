@@ -58,17 +58,17 @@ class Contact extends CmsModel
             ],
             'icon' => [
                 'type' => 'text',
-                'label' => trans('modules.contact.icon'),
+                'label' => trans('hack::modules.contact.icon'),
                 'regex' => '',
             ],
             'header' => [
                 'type' => 'text',
-                'label' => trans('modules.contact.header'),
+                'label' => trans('hack::modules.contact.header'),
                 'regex' => 'required',
             ],
             'subheader' => [
                 'type' => 'text',
-                'label' => trans('modules.contact.subheader'),
+                'label' => trans('hack::modules.contact.subheader'),
                 'regex' => '',
             ],
             

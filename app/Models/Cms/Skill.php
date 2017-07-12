@@ -58,12 +58,12 @@ class Skill extends CmsModel
             ],
             'skill' => [
                 'type' => 'text',
-                'label' => trans('modules.skill.skill'),
+                'label' => trans('hack::modules.skill.skill'),
                 'regex' => 'required',
             ],
             'proficiency' => [
                 'type' => 'number',
-                'label' => trans('modules.skill.proficiency'),
+                'label' => trans('hack::modules.skill.proficiency'),
                 'regex' => 'required',
                 'default' => 0,
                 'max' => 100,

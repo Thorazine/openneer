@@ -58,24 +58,24 @@ class Education extends CmsModel
             ],
             'language' => [
                 'type' => 'select',
-                'label' => trans('modules.pages.language'),
+                'label' => trans('hack::modules.pages.language'),
                 'regex' => 'required',
                 'values' => config('cms.languages'),
             ],
             'year' => [
                 'type' => 'text',
-                'label' => trans('modules.education.year'),
+                'label' => trans('hack::modules.education.year'),
                 'regex' => 'required',
                 'default' => '2000',
             ],
             'place' => [
                 'type' => 'text',
-                'label' => trans('modules.education.place'),
+                'label' => trans('hack::modules.education.place'),
                 'regex' => 'required',
             ],
             'description' => [
                 'type' => 'wysiwyg',
-                'label' => trans('modules.education.description'),
+                'label' => trans('hack::modules.education.description'),
                 'regex' => '',
                 'configuration' => 'text_only',
                 'overview' => false,

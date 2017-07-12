@@ -58,18 +58,18 @@ class Hobby extends CmsModel
             ],
             'language' => [
                 'type' => 'select',
-                'label' => trans('modules.pages.language'),
+                'label' => trans('hack::modules.pages.language'),
                 'regex' => 'required',
                 'values' => config('cms.languages'),
             ],
             'icon' => [
                 'type' => 'text',
-                'label' => trans('modules.hobby.icon'),
+                'label' => trans('hack::modules.hobby.icon'),
                 'regex' => '',
             ],
             'hobby' => [
                 'type' => 'text',
-                'label' => trans('modules.hobby.hobby'),
+                'label' => trans('hack::modules.hobby.hobby'),
                 'regex' => 'required',
             ],
         ];
