@@ -20,6 +20,17 @@ class ExperienceController extends CmsController
         $this->paginateAmount = 100;
 
         parent::__construct($this);
+
+        view()->share([
+            'filters' => [
+                'language' => [
+                    'type' => 'select',
+                    'values' => function() {
+                        return ['' => '-- '.trans('hack::modules.pages.language').' --']+config('cms.languages');
+                    },
+                ],
+            ],
+        ]);
     }
 
 

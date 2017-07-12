@@ -6,7 +6,7 @@
 
 	@include('hack::partials.menu')
 	
-	<div class="content">
+	<div class="content panel">
 
 		@include('hack::partials.header')
 
