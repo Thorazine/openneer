@@ -1,23 +1,25 @@
 
 // basic stuff
+@import './vendor/thorazine/hack/src/resources/assets/sass/cms/bootstrap-variables'; // overwrite bootstrap colors
 @import './vendor/thorazine/hack/src/resources/assets/sass/cms/variables';
 @import './vendor/thorazine/hack/src/resources/assets/sass/cms/base/font-includes';
 @import './vendor/thorazine/hack/src/resources/assets/sass/cms/base/helper'; 
 @import './vendor/thorazine/hack/src/resources/assets/sass/cms/base/font';
 @import './vendor/thorazine/hack/src/resources/assets/sass/cms/base/form';
 
+// includes
+@import './vendor/thorazine/hack/src/resources/assets/sass/cms/includes/bootstrap-fixes';
+@import './vendor/thorazine/hack/src/resources/assets/sass/cms/includes/jquery-ui';
+@import './node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+@import './vendor/thorazine/hack/src/resources/assets/sass/cms/bootstrap-variables';
+@import './node_modules/eonasdan-bootstrap-datetimepicker/src/sass/bootstrap-datetimepicker-build';
+@import './node_modules/cropper/src/scss/cropper';
+
 // mixins
 @import './vendor/thorazine/hack/src/resources/assets/sass/cms/mixins/height-ratio';
 @import './vendor/thorazine/hack/src/resources/assets/sass/cms/mixins/breakpoint';
 
 // components
-
-// includes
-@import './vendor/thorazine/hack/src/resources/assets/sass/cms/includes/bootstrap-fixes';
-@import './vendor/thorazine/hack/src/resources/assets/sass/cms/includes/jquery-ui';
-@import './node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
-@import './node_modules/eonasdan-bootstrap-datetimepicker/src/sass/bootstrap-datetimepicker-build';
-@import './node_modules/cropper/src/scss/cropper';
 
 // layout
 @import './vendor/thorazine/hack/src/resources/assets/sass/cms/layout/cms-loader';
@@ -51,4 +53,3 @@
 @import './vendor/thorazine/hack/src/resources/assets/sass/cms/pages/auth';
 @import './vendor/thorazine/hack/src/resources/assets/sass/cms/pages/base';
 @import './vendor/thorazine/hack/src/resources/assets/sass/cms/pages/user';
-@import './resources/assets/sass/cms/panel';
