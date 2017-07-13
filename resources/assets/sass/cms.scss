@@ -1,6 +1,23 @@
 // basic stuff
-@import './vendor/thorazine/hack/src/resources/assets/sass/cms/bootstrap-variables'; // overwrite bootstrap colors
-@import './resources/assets/sass/cms/sandstone-variables';
+@import './node_modules/bootstrap-sass/assets/stylesheets/bootstrap/variables'; // overwrite bootstrap colors
+
+// @import './node_modules/bootswatch-sass/amelia/variables';
+// @import './node_modules/bootswatch-sass/cerulean/variables';
+// @import './node_modules/bootswatch-sass/cosmo/variables';
+@import './node_modules/bootswatch-sass/cyborg/variables';
+// @import './node_modules/bootswatch-sass/darkly/variables';
+// @import './node_modules/bootswatch-sass/flatly/variables';
+// @import './node_modules/bootswatch-sass/journal/variables';
+// @import './node_modules/bootswatch-sass/lumen/variables';
+// @import './node_modules/bootswatch-sass/paper/variables';
+// @import './node_modules/bootswatch-sass/readable/variables';
+// @import './node_modules/bootswatch-sass/sandstone/variables';
+// @import './node_modules/bootswatch-sass/simplex/variables';
+// @import './node_modules/bootswatch-sass/slate/variables';
+// @import './node_modules/bootswatch-sass/spacelab/variables';
+// @import './node_modules/bootswatch-sass/superhero/variables';
+// @import './node_modules/bootswatch-sass/united/variables';
+// @import './node_modules/bootswatch-sass/yeti/variables';
 @import './vendor/thorazine/hack/src/resources/assets/sass/cms/variables';
 @import './vendor/thorazine/hack/src/resources/assets/sass/cms/base/font-includes';
 @import './vendor/thorazine/hack/src/resources/assets/sass/cms/base/helper'; 
@@ -8,11 +25,10 @@
 @import './vendor/thorazine/hack/src/resources/assets/sass/cms/base/form';
 
 // includes
-@import './vendor/thorazine/hack/src/resources/assets/sass/cms/includes/bootstrap-fixes';
 @import './vendor/thorazine/hack/src/resources/assets/sass/cms/includes/jquery-ui';
 @import './node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
-@import './vendor/thorazine/hack/src/resources/assets/sass/cms/bootstrap-variables';
 @import './node_modules/eonasdan-bootstrap-datetimepicker/src/sass/bootstrap-datetimepicker-build';
+@import './vendor/thorazine/hack/src/resources/assets/sass/cms/includes/bootstrap-fixes';
 @import './node_modules/cropper/src/scss/cropper';
 
 // mixins
@@ -53,4 +69,3 @@
 @import './vendor/thorazine/hack/src/resources/assets/sass/cms/pages/auth';
 @import './vendor/thorazine/hack/src/resources/assets/sass/cms/pages/base';
 @import './vendor/thorazine/hack/src/resources/assets/sass/cms/pages/user';
-@import './resources/assets/sass/cms/panel';
