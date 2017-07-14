@@ -91,6 +91,7 @@ return [
 	],
 	'form_fields' => [
 		'index',
+		'module',
 		'create',
 		'edit',
 		'destroy',
