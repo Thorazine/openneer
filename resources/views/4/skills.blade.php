@@ -6,11 +6,11 @@
 	<div class="flags">
 		@if($page['language'] != 'en')
 			<a class="flag" href="{{ route('page', ['slug' => 'en']) }}">
-				<img src="{{ asset('images/flags/en.png') }}">
+				<img src="{{ asset('images/flags/small/en.png') }}">
 			</a>
 		@elseif($page['language'] != 'nl')
 			<a class="flag" href="{{ route('page', ['slug' => 'nl']) }}">
-				<img src="{{ asset('images/flags/nl.png') }}">
+				<img src="{{ asset('images/flags/small/nl.png') }}">
 			</a>
 		@endif
 	</div>
