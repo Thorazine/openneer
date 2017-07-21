@@ -1,7 +1,9 @@
 {
     "/assets/cms/css/cms.css": "/assets/cms/css/cms.css",
     "/assets/frontend/css/frontend.css": "/assets/frontend/css/frontend.css",
+    "/assets/frontend/css/openneer.css": "/assets/frontend/css/openneer.css",
     "/assets/cms/css/wysiwyg.css": "/assets/cms/css/wysiwyg.css",
+    "/assets/cms/css/wysiwyg-openneer.css": "/assets/cms/css/wysiwyg-openneer.css",
     "/assets/cms/js/cms.js": "/assets/cms/js/cms.js",
     "/assets/cms/js/auth.js": "/assets/cms/js/auth.js"
 }
