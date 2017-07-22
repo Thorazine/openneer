@@ -2893,16 +2893,16 @@
         },
         {
             "name": "thorazine/hack",
-            "version": "1.0.45",
+            "version": "1.0.46",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Thorazine/hack.git",
-                "reference": "0d5e67ba88cb60109527825ab10fd54880445c49"
+                "reference": "d0897283a6ed28f303aea1d719a3ee4d168d3035"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Thorazine/hack/zipball/0d5e67ba88cb60109527825ab10fd54880445c49",
-                "reference": "0d5e67ba88cb60109527825ab10fd54880445c49",
+                "url": "https://api.github.com/repos/Thorazine/hack/zipball/d0897283a6ed28f303aea1d719a3ee4d168d3035",
+                "reference": "d0897283a6ed28f303aea1d719a3ee4d168d3035",
                 "shasum": ""
             },
             "require": {
@@ -2933,7 +2933,7 @@
                 "hack",
                 "laravel"
             ],
-            "time": "2017-07-22T00:32:59+00:00"
+            "time": "2017-07-22T00:37:33+00:00"
         },
         {
             "name": "thorazine/location",
