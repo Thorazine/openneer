@@ -30,7 +30,7 @@
 
 	@yield('content')
 
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets/frontend/css/frontend.css') }}?version={{ (App::environment() === 'develop') ? rand(1,1000) : '' }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/frontend/css/frontend.css') }}?version={{ (config('app.debug')) ? rand(1,1000) : $page->browser_cache_hash }}">
     <script src="https://use.fontawesome.com/5daec6a801.js"></script>
 
 	@yield('script')
