@@ -91,7 +91,7 @@
 					<div class="container language">
 						<h2 class="slashed">{{ __('matthijs.languages') }}</h2>
 
-						@foreach($page->languages as $language)
+						@foreach($page->mylanguages as $language)
 							@include('1.partials.language')
 						@endforeach
 
