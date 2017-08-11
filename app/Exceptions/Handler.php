@@ -37,26 +37,28 @@ class Handler extends ExceptionHandler
         if ($this->shouldReport($e)) {
             app('sentry')->captureException($e);
 
-            // // Add user context
-            // if (Cms::user()) {
-            //     $sentry->user_context([
-            //         'id' => Cms::user('id'),
-            //         'first_name' => Cms::user('first_name'),
-            //         'last_name' => Cms::user('last_name'),
-            //         'email' => Cms::user('email'),
-            //         'ip' => Request::ip(),
-            //     ]);
-            // } 
-            // else {
-            //     $sentry->user_context([
-            //         'ip' => Request::ip(),
-            //     ]);
-            // }
+            $sentry = app('sentry');
+            
+            // Add user context
+            if (Cms::user()) {
+                $sentry->user_context([
+                    'id' => Cms::user('id'),
+                    'first_name' => Cms::user('first_name'),
+                    'last_name' => Cms::user('last_name'),
+                    'email' => Cms::user('email'),
+                    'ip' => Request::ip(),
+                ]);
+            } 
+            else {
+                $sentry->user_context([
+                    'ip' => Request::ip(),
+                ]);
+            }
 
-            // // Add tags context
-            // $sentry->tags_context([
-            //     'hack_release' => Cms::getVersion(),
-            // ]);
+            // Add tags context
+            $sentry->tags_context([
+                'hack_release' => Cms::getVersion(),
+            ]);
         }
         parent::report($e);
     }
