@@ -34,11 +34,11 @@ class Handler extends ExceptionHandler
      */
     public function report(Exception $e)
     {
-        if ($this->shouldReport($e)) {
+        if ($this->shouldReport($e) && !env('APP_DEBUG')) {
             app('sentry')->captureException($e);
 
             $sentry = app('sentry');
-            
+
             // Add user context
             if (Cms::user()) {
                 $sentry->user_context([
