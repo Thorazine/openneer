@@ -189,8 +189,8 @@ return [
         Jenssegers\Agent\AgentServiceProvider::class,
         Maatwebsite\Excel\ExcelServiceProvider::class,
         Thorazine\Hack\Providers\RouteServiceProvider::class,
-        Noprotocol\LaravelLocation\LocationServiceProvider::class,
         Sentry\SentryLaravel\SentryLaravelServiceProvider::class,
+        Thorazine\Location\LocationServiceProvider::class,
     ],
 
     /*
@@ -251,8 +251,8 @@ return [
         'Builder' => Thorazine\Hack\Facades\BuilderFacade::class,
         'Cms' => Thorazine\Hack\Facades\CmsFacade::class,
         'Front' => Thorazine\Hack\Facades\FrontFacade::class,
-        'Location' => Noprotocol\LaravelLocation\Facades\LocationFacade::class,
         'Sentry' => Sentry\SentryLaravel\SentryFacade::class,
+        'Location' => Thorazine\Location\Facades\LocationFacade::class,
     ],
 
 ];

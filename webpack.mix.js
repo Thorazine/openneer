@@ -18,8 +18,14 @@ mix
     // frontend
     .sass('resources/assets/sass/frontend.scss', 'public/assets/frontend/css/frontend.css')
 
+    // openneer css
+    .sass('resources/assets/sass/openneer.scss', 'public/assets/frontend/css/openneer.css')
+
     // wysiwyg
     .sass('resources/assets/sass/wysiwyg.scss', 'public/assets/cms/css/wysiwyg.css')
+
+    // wysiwyg for openneer.com
+    .sass('resources/assets/sass/wysiwyg-openneer.scss', 'public/assets/cms/css/wysiwyg-openneer.css')
 
     .scripts([
         'node_modules/jquery/dist/jquery.min.js',

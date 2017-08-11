@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <head>
-	<meta name="google-site-verification" content="O0U3XHK_lN3R6I8UORky7koLQSY-aZ_lGEFzYK5UqZU" />
+
+<!-- ##############################################
+    __  _____   ________ __                       
+   / / / /   | / ____/ //_/   _________ ___  _____
+  / /_/ / /| |/ /   / ,<     / ___/ __ `__ \/ ___/
+ / __  / ___ / /___/ /| |   / /__/ / / / / (__  ) 
+/_/ /_/_/  |_\____/_/ |_|   \___/_/ /_/ /_/____/  
+                                                  
+############################################### -->
+
+	<html lang="{{ $page->language }}">
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 

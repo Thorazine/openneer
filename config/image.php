@@ -15,7 +15,7 @@ return array(
     |
     */
 
-    'driver' => 'gd',
+    'driver' => env('IMAGE_DRIVER', 'imagick'),
 
     /*
     |--------------------------------------------------------------------------
@@ -26,6 +26,6 @@ return array(
     |
     */
 
-    'quality' => 100,
+    'quality' => 90,
 
 );
