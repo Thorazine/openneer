@@ -21,9 +21,9 @@ return [
 	
 
 	/** 
-	 * All the modules we use
+	 * All the builders we use
 	 */
-	'modules' => [
+	'builders' => [
 		'text' => [
 		 	'namespace' => 'Thorazine\Hack\Models\Builders\Text',
 		 	'label' => 'Text',
