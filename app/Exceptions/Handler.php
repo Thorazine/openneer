@@ -5,6 +5,8 @@ namespace App\Exceptions;
 use Exception;
 use Illuminate\Auth\AuthenticationException;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
+use Request;
+use Cms;
 
 class Handler extends ExceptionHandler
 {
@@ -30,9 +32,33 @@ class Handler extends ExceptionHandler
      * @param  \Exception  $exception
      * @return void
      */
-    public function report(Exception $exception)
+    public function report(Exception $e)
     {
-        parent::report($exception);
+        if ($this->shouldReport($e)) {
+            app('sentry')->captureException($e);
+
+            // Add user context
+            if (Cms::user()) {
+                $sentry->user_context([
+                    'id' => Cms::user('id'),
+                    'first_name' => Cms::user('first_name'),
+                    'last_name' => Cms::user('last_name'),
+                    'email' => Cms::user('email'),
+                    'ip' => Request::ip(),
+                ]);
+            } 
+            else {
+                $sentry->user_context([
+                    'ip' => Request::ip(),
+                ]);
+            }
+
+            // Add tags context
+            $sentry->tags_context([
+                'hack_release' => Cms::getVersion(),
+            ]);
+        }
+        parent::report($e);
     }
 
     /**

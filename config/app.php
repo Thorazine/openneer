@@ -190,6 +190,7 @@ return [
         Maatwebsite\Excel\ExcelServiceProvider::class,
         Thorazine\Hack\Providers\RouteServiceProvider::class,
         Noprotocol\LaravelLocation\LocationServiceProvider::class,
+        Sentry\SentryLaravel\SentryLaravelServiceProvider::class,
     ],
 
     /*
@@ -251,6 +252,7 @@ return [
         'Cms' => Thorazine\Hack\Facades\CmsFacade::class,
         'Front' => Thorazine\Hack\Facades\FrontFacade::class,
         'Location' => Noprotocol\LaravelLocation\Facades\LocationFacade::class,
+        'Sentry' => Sentry\SentryLaravel\SentryFacade::class,
     ],
 
 ];
