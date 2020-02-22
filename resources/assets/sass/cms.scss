@@ -14,17 +14,17 @@
 // @import './node_modules/bootswatch-sass/readable/variables';
 // @import './node_modules/bootswatch-sass/sandstone/variables';
 // @import './node_modules/bootswatch-sass/simplex/variables';
-// @import './node_modules/bootswatch-sass/slate/variables';
+@import './node_modules/bootswatch-sass/slate/variables';
 // @import './node_modules/bootswatch-sass/spacelab/variables';
 // @import './node_modules/bootswatch-sass/superhero/variables';
 // @import './node_modules/bootswatch-sass/united/variables';
 // @import './node_modules/bootswatch-sass/yeti/variables';
 
-@import './vendor/thorazine/hack/src/resources/assets/sass/cms/theme';
+// @import './vendor/thorazine/hack/src/resources/assets/sass/cms/theme';
 
 @import './vendor/thorazine/hack/src/resources/assets/sass/cms/variables';
 @import './vendor/thorazine/hack/src/resources/assets/sass/cms/base/font-includes';
-@import './vendor/thorazine/hack/src/resources/assets/sass/cms/base/helper'; 
+@import './vendor/thorazine/hack/src/resources/assets/sass/cms/base/helper';
 @import './vendor/thorazine/hack/src/resources/assets/sass/cms/base/font';
 @import './vendor/thorazine/hack/src/resources/assets/sass/cms/base/form';
 
