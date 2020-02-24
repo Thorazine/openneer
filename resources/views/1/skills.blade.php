@@ -35,6 +35,14 @@
 
 			<div class="grid break-md">
 				<div class="grid-7">
+					<div class="container experience">
+						<h2 class="slashed">{{ __('matthijs.experiences') }}</h2>
+
+						@foreach($page->experiences as $experience)
+							@include('1.partials.experience')
+						@endforeach
+
+					</div>
 					<div class="container">
 						<h2 class="slashed">{{ __('matthijs.about_me') }}</h2>
 						<div class="wysiwyg">
@@ -48,14 +56,6 @@
 
 						@foreach($page->educations as $education)
 							@include('1.partials.education')
-						@endforeach
-
-					</div>
-					<div class="container experience">
-						<h2 class="slashed">{{ __('matthijs.experiences') }}</h2>
-
-						@foreach($page->experiences as $experience)
-							@include('1.partials.experience')
 						@endforeach
 
 					</div>
