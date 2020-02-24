@@ -3410,16 +3410,16 @@
         },
         {
             "name": "thorazine/hack",
-            "version": "1.1.11",
+            "version": "1.13.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Thorazine/hack.git",
-                "reference": "da97b3c0a6f0b66f2f393a9423e5e2b101cdf228"
+                "reference": "b642aaa55a184422f921892406158f6840102753"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Thorazine/hack/zipball/da97b3c0a6f0b66f2f393a9423e5e2b101cdf228",
-                "reference": "da97b3c0a6f0b66f2f393a9423e5e2b101cdf228",
+                "url": "https://api.github.com/repos/Thorazine/hack/zipball/b642aaa55a184422f921892406158f6840102753",
+                "reference": "b642aaa55a184422f921892406158f6840102753",
                 "shasum": ""
             },
             "require": {
@@ -3432,7 +3432,7 @@
                 "laravel/framework": "5.3.*|^5.4.13",
                 "laravelcollective/html": "5.*",
                 "maatwebsite/excel": "^2.1",
-                "thorazine/location": "^1.0.0"
+                "thorazine/location": "^3.0"
             },
             "type": "project",
             "autoload": {
@@ -3450,26 +3450,36 @@
                 "hack",
                 "laravel"
             ],
-            "time": "2020-02-22T01:13:32+00:00"
+            "time": "2020-02-24T18:38:18+00:00"
         },
         {
             "name": "thorazine/location",
-            "version": "1.0.9",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Thorazine/location.git",
-                "reference": "706a0f756d3949cf8d7c062f346dad984013b16b"
+                "reference": "cf18c96619af002e3447db1bab14804ba499f2f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Thorazine/location/zipball/706a0f756d3949cf8d7c062f346dad984013b16b",
-                "reference": "706a0f756d3949cf8d7c062f346dad984013b16b",
+                "url": "https://api.github.com/repos/Thorazine/location/zipball/cf18c96619af002e3447db1bab14804ba499f2f0",
+                "reference": "cf18c96619af002e3447db1bab14804ba499f2f0",
                 "shasum": ""
             },
             "require": {
                 "guzzlehttp/guzzle": "^6.0"
             },
             "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Thorazine\\Location\\LocationServiceProvider"
+                    ],
+                    "aliases": {
+                        "Location": "Thorazine\\Location\\Facades\\LocationFacade"
+                    }
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "Thorazine\\Location\\": "src/"
@@ -3486,7 +3496,7 @@
                 }
             ],
             "description": "A location reverser for Laravel with Google API",
-            "time": "2017-10-10T15:40:49+00:00"
+            "time": "2019-02-26T23:25:33+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
