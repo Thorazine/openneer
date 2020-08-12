@@ -22,6 +22,9 @@ return [
 		'icon' => 'Icon',
 		'hobby' => 'Hobby',
 	],
+	'tag' => [
+		'tag' => 'Tag',
+	],
 	'language' => [
 		'language' => 'Language',
 		'proficiency' => 'Proficiency',

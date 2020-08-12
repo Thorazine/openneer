@@ -18,6 +18,7 @@ return [
 	'skills' => 'Skills',
 	'languages' => 'Languages',
 	'hobbys' => 'Hobbys',
+	'tags' => 'Tags',
 
 	'level' => [
 		'beginner' => 'Beginner',

@@ -2,7 +2,7 @@
 
 return [
 	/**
-	 * This is where you can add additional right	
+	 * This is where you can add additional right
 	 */
 	'education' => [
 		'index',
@@ -29,6 +29,12 @@ return [
 		'destroy',
 	],
 	'languages' => [
+		'index',
+		'create',
+		'edit',
+		'destroy',
+	],
+	'tags' => [
 		'index',
 		'create',
 		'edit',

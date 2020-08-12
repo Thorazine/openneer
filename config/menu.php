@@ -52,6 +52,10 @@ return [
 				'label' => 'cms.module.experiences',
 			],
 			[
+				'route' => 'cms.tags.index',
+				'label' => 'cms.module.tags',
+			],
+			[
 				'route' => 'cms.hobbies.index',
 				'label' => 'cms.module.hobbies',
 			],

@@ -88,6 +88,17 @@
 							<div class="label master">{{ __('matthijs.level.master') }}</div>
 						</div>
 					</div>
+
+					<div class="container tags">
+						<h2 class="slashed">{{ __('matthijs.tags') }}</h2>
+
+						@foreach($page->tags as $tag)
+							<div class="tag">
+							    {{ $tag->tag }}
+							</div>
+						@endforeach
+					</div>
+
 					<div class="container language">
 						<h2 class="slashed">{{ __('matthijs.languages') }}</h2>
 

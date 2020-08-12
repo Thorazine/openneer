@@ -25,6 +25,9 @@ Route::group(['middleware' => 'sentinel.auth', 'namespace' => 'App\Http\Controll
 	Route::post('experiences/order', ['as' => 'experiences.order', 'uses' => 'ExperienceController@order']);
 	Route::resource('experiences', 'ExperienceController');
 
+	Route::post('tags/order', ['as' => 'tags.order', 'uses' => 'TagController@order']);
+	Route::resource('tags', 'TagController');
+
 	Route::post('hobbies/order', ['as' => 'hobbies.order', 'uses' => 'HobbyController@order']);
 	Route::resource('hobbies', 'HobbyController');
 
