@@ -93,7 +93,9 @@
 						<h2 class="slashed">{{ __('matthijs.tags') }}</h2>
 
 						@foreach($page->tags as $tag)
-							<div class="tag">{{ $tag->tag }}</div>
+							<div class="tag">
+							    {{ $tag->tag }}
+							</div>
 						@endforeach
 					</div>
 
