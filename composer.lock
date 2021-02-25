@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "29dd47b49da47e096de48d3bdf6175a5",
+    "content-hash": "adc55f0fdf9a3b707f47aa4a14f79b7d",
     "packages": [
         {
             "name": "barryvdh/laravel-debugbar",
@@ -637,6 +637,7 @@
                     "email": "jakub.onderka@gmail.com"
                 }
             ],
+            "abandoned": "php-parallel-lint/php-console-color",
             "time": "2018-09-29T17:23:10+00:00"
         },
         {
@@ -683,6 +684,7 @@
                 }
             ],
             "description": "Highlight PHP code in terminal",
+            "abandoned": "php-parallel-lint/php-console-highlighter",
             "time": "2018-09-29T18:48:56+00:00"
         },
         {
@@ -859,6 +861,7 @@
                 "serialize",
                 "tokenizer"
             ],
+            "abandoned": "opis/closure",
             "time": "2018-03-21T22:21:57+00:00"
         },
         {
@@ -1780,12 +1783,12 @@
             "version": "v1.1.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/nrk/predis.git",
+                "url": "https://github.com/predis/predis.git",
                 "reference": "f0210e38881631afeafb56ab43405a92cafd9fd1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nrk/predis/zipball/f0210e38881631afeafb56ab43405a92cafd9fd1",
+                "url": "https://api.github.com/repos/predis/predis/zipball/f0210e38881631afeafb56ab43405a92cafd9fd1",
                 "reference": "f0210e38881631afeafb56ab43405a92cafd9fd1",
                 "shasum": ""
             },
@@ -3410,16 +3413,16 @@
         },
         {
             "name": "thorazine/hack",
-            "version": "1.13.2",
+            "version": "1.13.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Thorazine/hack.git",
-                "reference": "b642aaa55a184422f921892406158f6840102753"
+                "reference": "40a38375dcf2d92efcbe899f618c4750cd0b325b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Thorazine/hack/zipball/b642aaa55a184422f921892406158f6840102753",
-                "reference": "b642aaa55a184422f921892406158f6840102753",
+                "url": "https://api.github.com/repos/Thorazine/hack/zipball/40a38375dcf2d92efcbe899f618c4750cd0b325b",
+                "reference": "40a38375dcf2d92efcbe899f618c4750cd0b325b",
                 "shasum": ""
             },
             "require": {
@@ -3450,7 +3453,7 @@
                 "hack",
                 "laravel"
             ],
-            "time": "2020-02-24T18:38:18+00:00"
+            "time": "2021-02-25T22:51:57+00:00"
         },
         {
             "name": "thorazine/location",
@@ -5099,5 +5102,6 @@
     "platform": {
         "php": ">=5.6.4"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }
