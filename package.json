@@ -14,7 +14,7 @@
     "cross-env": "^5.0.1",
     "laravel-mix": "^1.0",
     "lodash": "^4.17.4",
-    "webpack-livereload-plugin": "^0.11.0"
+    "webpack-livereload-plugin": "^3.0.2"
   },
   "dependencies": {
     "bootstrap-sass": "^3.3.7",
