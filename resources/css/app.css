@@ -1,0 +1,14 @@
+@import 'tailwindcss';
+
+@source '../../resources/views/**/*.blade.php';
+@source '../../resources/js/**/*.vue';
+@source '../../resources/js/**/*.js';
+
+@theme {
+    --font-open-sans: 'Open Sans', ui-sans-serif, system-ui, sans-serif;
+
+    --color-accent-primary: #f0563d;
+    --color-accent-secondary: #A85265;
+
+    --font-sans: var(--font-open-sans);
+}
