@@ -2,7 +2,7 @@
     <div class="min-h-screen bg-[#eeeeee] font-sans text-[#363636] px-4 pb-8 pt-[110px] md:px-8" :style="{ fontFamily: 'Open Sans, sans-serif' }">
         <!-- Language Switcher -->
         <div class="relative max-w-[1170px] mx-auto h-0 z-10 w-full hidden md:block">
-             <a :href="language === 'nl' ? '/en' : '/nl'" class="float-right block w-[30px] h-[30px] ml-[5px] mt-[-20px] md:mt-0">
+             <a :href="language === 'nl' ? '/en' : '/nl'" class="absolute right-[20px] top-0 block w-[30px] h-[30px] md:mt-0">
                   <img :src="language === 'nl' ? '/images/en.png' : '/images/nl.png'" class="w-full h-full object-contain">
              </a>
         </div>
@@ -45,7 +45,7 @@
                     <!-- About -->
                     <section class="mb-12">
                         <h2 class="text-accent-primary font-bold text-lg mb-1 uppercase">// {{ content.sections.about }}</h2>
-                        <p class="text-[13px] leading-relaxed text-[#666666] font-medium">{{ content.about }}</p>
+                        <p class="text-[13px] leading-[20px] text-[#666666] font-semibold">{{ content.about }}</p>
                     </section>
 
                     <!-- Education (Conditional) -->
@@ -72,7 +72,7 @@
                                 <h3 class="font-bold text-[16px] leading-[1.2] mb-1">
                                     {{ edu.school }} <span v-if="edu.course">- {{ edu.course }}</span>
                                 </h3>
-                                <p v-if="edu.description" class="text-[13px] text-[#666666] font-medium leading-relaxed">
+                                <p v-if="edu.description" class="text-[13px] leading-[20px] text-[#666666] font-semibold">
                                     {{ edu.description }}
                                 </p>
                             </div>
