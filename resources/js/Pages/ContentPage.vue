@@ -106,9 +106,9 @@
                     <!-- Skills -->
                     <section class="mb-12">
                         <h2 class="text-accent-primary font-bold text-lg mb-1 uppercase">// {{ content.sections.skills }}</h2>
-                        <div v-for="(skill, index) in content.skills" :key="index" class="mb-3">
-                            <div class="h-7 bg-[#eeeeee] relative w-full rounded-sm overflow-hidden">
-                                <div class="h-full bg-accent-primary flex items-center px-3 text-[11px] font-bold text-white uppercase transition-all duration-1000 ease-out" :style="{ width: isLoaded ? skill.percent + '%' : '0%' }">
+                        <div v-for="(skill, index) in content.skills" :key="index" class="mb-2">
+                            <div class="h-5 bg-[#eeeeee] relative w-full rounded-sm overflow-hidden">
+                                <div class="h-full bg-accent-primary flex items-center px-2 text-[10px] font-bold text-white uppercase transition-all duration-1000 ease-out" :style="{ width: isLoaded ? skill.percent + '%' : '0%' }">
                                     {{ skill.name }}
                                 </div>
                             </div>
@@ -136,7 +136,7 @@
                     <!-- Tags -->
                     <section class="mb-12">
                          <div class="block">
-                             <div v-for="tag in content.tags" :key="tag" class="inline-block bg-accent-secondary text-white text-[13px] font-bold px-[14px] py-[7px] rounded-[2px] mr-[5px] mb-[5px]">
+                             <div v-for="tag in content.tags" :key="tag" class="inline-flex items-center bg-accent-secondary text-white text-[10px] font-bold px-2 h-5 rounded-[2px] mr-[5px] mb-[5px]">
                                  {{ tag }}
                              </div>
                          </div>
@@ -157,8 +157,8 @@
                     <section class="mb-12">
                         <h2 class="text-accent-primary font-bold text-lg mb-1 uppercase">// {{ content.sections.hobbies }}</h2>
                         <div class="block">
-                             <div v-for="hobby in content.hobbies" :key="hobby" class="inline-block bg-accent-secondary text-white text-[13px] font-bold px-[14px] py-[7px] rounded-[2px] mr-[5px] mb-[5px]">
-                                 <i :class="getHobbyIcon(hobby)" class="mr-1 text-[13px]"></i> {{ hobby }}
+                             <div v-for="hobby in content.hobbies" :key="hobby" class="inline-flex items-center bg-accent-secondary text-white text-[10px] font-bold px-2 h-5 rounded-[2px] mr-[5px] mb-[5px]">
+                                 <i :class="getHobbyIcon(hobby)" class="mr-1 text-[10px]"></i> {{ hobby }}
                              </div>
                         </div>
                     </section>
