@@ -155,7 +155,7 @@ return [
         ['name' => 'English', 'stars' => 5],
         ['name' => 'German', 'stars' => 2],
     ],
-    'tags' => ['Amazon', 'Azure', 'Docker', 'CI/CD', 'Test-driven', 'SOLID', 'Cloud solutions', 'Laravel Forge', 'Laravel Vapor', 'Composer', 'Webpack/Vite', 'npm', 'UNIX', 'Automatic deployment', 'Git', 'Jira', 'Scrum', 'WordPress', 'Apache', 'Mongo', 'MySQL', 'Mac', 'Phonegap', 'Cordova', 'Redis', 'Memcache', 'Security'],
+    'tags' => ['Amazon', 'Azure', 'Docker', 'CI/CD', 'Test-driven', 'SOLID', 'Cloud solutions', 'Laravel Forge', 'Laravel Vapor', 'Composer', 'Webpack/Vite', 'npm', 'UNIX', 'Automatic deployment', 'Git', 'Jira', 'Scrum', 'WordPress', 'Apache', 'Mongo', 'MySQL', 'Mac', 'Phonegap', 'Cordova', 'Redis', 'Memcache', 'Security', 'SIVI/AFD1+2'],
     'hobbies' => ['Mountain biking', 'Thai boxing', 'Engineering', 'Programming', '3D printing', 'Films & series', 'Golf', 'Retro games', 'Home automation'],
     'contact' => [
         'email' => 'matthijs@tokomono.nl',

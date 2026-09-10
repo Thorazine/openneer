@@ -161,7 +161,7 @@ Mocht je code van mij willen zien, kan ik aanraden om op GitHub te kijken.',
         ['name' => 'Engels', 'stars' => 5],
         ['name' => 'Duits', 'stars' => 2],
     ],
-    'tags' => ['Amazon', 'Azure', 'Docker', 'CI/CD', 'Test-driven', 'SOLID', 'Cloud solutions', 'Laravel Forge', 'Laravel Vapor', 'Composer', 'Webpack/Vite', 'npm', 'UNIX', 'Automatic deployment', 'Git', 'Jira', 'Scrum', 'WordPress', 'Apache', 'Mongo', 'MySQL', 'Mac', 'Phonegap', 'Cordova', 'Redis', 'Memcache', 'Security'],
+    'tags' => ['Amazon', 'Azure', 'Docker', 'CI/CD', 'Test-driven', 'SOLID', 'Cloud solutions', 'Laravel Forge', 'Laravel Vapor', 'Composer', 'Webpack/Vite', 'npm', 'UNIX', 'Automatic deployment', 'Git', 'Jira', 'Scrum', 'WordPress', 'Apache', 'Mongo', 'MySQL', 'Mac', 'Phonegap', 'Cordova', 'Redis', 'Memcache', 'Security', 'SIVI/AFD1+2'],
     'hobbies' => ['Mountainbiken', 'Engineering', 'Programmeren', '3D-printen', 'Films & series', 'Golf', 'Retro games', 'Home automation'],
     'contact' => [
         'email' => 'matthijs@tokomono.nl',
